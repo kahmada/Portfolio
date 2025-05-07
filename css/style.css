@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #f1c3e9;
+    --primary-color: #fca40b;
     --secondary-color: #4d9fc8;
-    --lightcolor: hsl(0, 0%, 96%);
-    --bgcolor-1: hwb(281 57% 22%);
-    --bgcolor-2: #e8cde2;
+    --lightcolor: #ece751;
+    --bgcolor-1: hwb(214 5% 86%);
+    --bgcolor-2: hwb(214 5% 86%);
     --padding: 8%;
 }
 
@@ -40,7 +40,7 @@ h3 {
 
 h4 {
     font-size: 1.2rem;
-    color: rgb(147, 100, 209);
+    color: rgb(255, 255, 255);
 }
 
 .home {
@@ -52,7 +52,7 @@ h4 {
 }
 
 span {
-    color: pink;
+    color: rgb(255, 255, 255);
 }
 
 nav {
@@ -83,12 +83,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: pink;
+    color: rgb(250, 250, 250);
 }
 
 .btn {
     padding: 0.5rem 1.5rem;
-    background-color: pink;
+    background-color: rgb(239, 16, 16);
     text-decoration: none;
     color: var(--lightcolor);
     border-radius: 50px;
@@ -135,52 +135,39 @@ nav ul li a:hover {
 }
 
 .mypic {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    margin-top: 2rem;
-    margin-left: 2rem;
+    border-radius: 20%;
+    width: 500px;
+    height: 400px;
 }
 
-.about {
-
-    margin-top: 1rem;
-    display: flex;
+.services, .skills, .contact , .about {
     margin-top: 50px;
     justify-content: center;
     padding: 2rem var(--padding);
     background-color: var(--bgcolor-2);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(33, 35, 38);
+    color: rgb(251, 252, 254);
     font-size: 1.1rem;
 }
-.services, .skills, .contact {
-    margin-top: 50px;
-    justify-content: center;
-    padding: 2rem var(--padding);
-    background-color: var(--bgcolor-2);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(33, 35, 38);
-    font-size: 1.1rem;
-}
+
 .services h3 {
     margin-bottom: 1rem; /* Reduced space between h3 and p */
-    color: hwb(263 40% 25%);
+    color: hwb(0 100% 0%);
 }
 
 .services p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.1rem;
     margin-top: 1rem; /* Reduced space between h3 and p */
-    color: hwb(305 11% 74%);
+    color: hwb(0 100% 0%);
 }
 
 .about h2, .services h2, .skills h2, .contact h2 {
     text-align: center;
     margin-bottom: 2rem;
-    color: hwb(281 57% 22%);
+    color: hwb(0 100% 0%);
 }
-.about p, .services p, .skills ul, .contact form {
+.about p, .about p .services p, .skills ul, .contact form {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -217,7 +204,7 @@ nav ul li a:hover {
 .contact form button {
     align-self: flex-start;
     padding: 0.5rem 1.5rem;
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -230,20 +217,15 @@ nav ul li a:hover {
 }
 .contact .btnu{
     padding: 0.5rem 1.5rem;
-    background-color: hwb(281 57% 22%);
+    background-color: #fca40b;
     text-decoration: none;
     color: var(--lightcolor);
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.ima{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    background-color: yellow;
-}
+
+
 .about .anim {
     margin-top: 0.5rem;
     border-radius: 50%;
@@ -258,7 +240,7 @@ nav ul li a:hover {
     margin-top: 50px;
     justify-content: center;
     padding: 2rem var(--padding);
-    background-color: hwb(281 57% 22%);
+    background-color: #fca40b;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(33, 35, 38);
     font-size: 1.1rem;
